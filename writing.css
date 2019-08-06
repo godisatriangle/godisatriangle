@@ -41,10 +41,9 @@ span#word {
   color: #bb9ffc;
 }
 .images {
-  margin: 20px;
+  text-align: center;
   display: inline-table;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .image1 {
@@ -144,7 +143,14 @@ span#word {
    padding-right: 20px;
 
 }
+@media screen and (max-width: 600px) {
+  .image1 {
 
+    min-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
 
 span.smaller {
   font-size: 23px;
@@ -233,6 +239,7 @@ span.smaller {
 
 .button {
   border: none;
+  text-decoration: none;
 }
 
 /* Modal Content */
