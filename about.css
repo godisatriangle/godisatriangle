@@ -226,7 +226,9 @@ span.smaller {
   right: 45px;
   font-size: 40px;
 }
-
+.contact {
+  color: black;
+}
 @media screen and (max-width: 450px) {
   .overlay a {font-size: 30px}
   .overlay .closebtn {

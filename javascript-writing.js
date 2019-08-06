@@ -10,27 +10,47 @@ function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal22 = document.getElementById("myModal22");
+
+// Get the button that opens the modal
+var btn22 = document.getElementById("myBtn22");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close22")[0];
+
+// When the user clicks the button, open the modal
+btn22.onclick = function() {
+  modal22.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal22.style.display = "none";
+}
+
+
+
+
+// Get the modal
+var modals = document.getElementById("myModals");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("closes")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function() {
-  modal.style.display = "block";
+  modals.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+  modals.style.display = "none";
 }
+
 
 
 
@@ -447,77 +467,4 @@ btn21.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal21.style.display = "none";
-}
-
-
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  //alert(event.target)
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-  if(event.target == modal1) {
-        modal1.style.display = "none";
-     }
-  if(event.target == modal2) {
-        modal2.style.display = "none";
-    }
-  if(event.target == modal3) {
-        modal3.style.display = "none";
-    }
-  if(event.target == modal4) {
-        modal4.style.display = "none";
-    }
-  if(event.target == modal5) {
-        modal5.style.display = "none";
-    }
-  if(event.target == modal6) {
-          modal6.style.display = "none";
-      }
-  if(event.target == modal7) {
-        modal7.style.display = "none";
-          }
-  if(event.target == modal8) {
-      modal8.style.display = "none";
-      }
-  if(event.target == modal9) {
-      modal9.style.display = "none";
-          }
-if(event.target == modal10) {
-    modal10.style.display = "none";
-          }
-  if(event.target == modal11) {
-    modal11.style.display = "none";
-    }
-  if(event.target == modal12) {
-    modal12.style.display = "none";
-    }
-    if(event.target == modal13) {
-        modal13.style.display = "none";
-            }
-  if(event.target == modal14) {
-      modal14.style.display = "none";
-            }
-    if(event.target == modal15) {
-      modal15.style.display = "none";
-      }
-    if(event.target == modal16) {
-      modal16.style.display = "none";
-      }
-      if(event.target == modal17) {
-        modal17.style.display = "none";
-        }
-        if(event.target == modal18) {
-            modal18.style.display = "none";
-                }
-      if(event.target == modal19) {
-          modal19.style.display = "none";
-                }
-        if(event.target == modal20) {
-          modal20.style.display = "none";
-          }
-        if(event.target == modal21) {
-          modal21.style.display = "none";
-          }
 }
